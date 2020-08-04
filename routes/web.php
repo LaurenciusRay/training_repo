@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/new-branch', function(){
+    return view('welcome');
+});
